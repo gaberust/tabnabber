@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Tabnabber</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            document.writeln('Redirecting opening tab to {{ dest }}...');
+            window.opener.location = "{{ dest }}";
+        </script>
+    </body>
+</html>
